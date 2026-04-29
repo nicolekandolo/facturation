@@ -1,0 +1,102 @@
+/* Styles extraits des pages PHP pour respecter la séparation structure/style */
+
+/* POS - animation de scan */
+@keyframes scan-sweep {
+  0% { top: 4px; opacity: 1; }
+  49% { opacity: 1; }
+  50% { top: calc(100% - 4px); opacity: 0.8; }
+  100% { top: 4px; opacity: 1; }
+}
+
+.scan-line {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent 0%, #ef4444 20%, #ef4444 80%, transparent 100%);
+  box-shadow: 0 0 6px 2px rgba(239, 68, 68, 0.6);
+  animation: scan-sweep 2s ease-in-out infinite;
+  pointer-events: none;
+}
+
+.scan-flash {
+  position: absolute;
+  inset: 0;
+  background: rgba(16, 185, 129, 0.3);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.15s ease;
+}
+
+#quagga-zone video {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+}
+
+#quagga-zone canvas {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+@keyframes toast-in {
+  from { transform: translateY(-20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes toast-out {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+.toast {
+  animation: toast-in 0.2s ease forwards;
+}
+
+.toast.hiding {
+  animation: toast-out 0.3s ease forwards;
+}
+
+/* Produits - évite le conflit avec l'animation scan-sweep globale */
+@keyframes scan-sweep-products {
+  0% { top: 4px; }
+  50% { top: calc(100% - 4px); }
+  100% { top: 4px; }
+}
+
+.scan-line-p {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent 0%, #ef4444 20%, #ef4444 80%, transparent 100%);
+  box-shadow: 0 0 6px 2px rgba(239, 68, 68, 0.6);
+  animation: scan-sweep-products 2s ease-in-out infinite;
+  pointer-events: none;
+}
+
+.p-scan-flash {
+  position: absolute;
+  inset: 0;
+  background: rgba(16, 185, 129, 0.35);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.15s ease;
+}
+
+#pquagga-zone video {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+}
+
+#pquagga-zone canvas {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+}

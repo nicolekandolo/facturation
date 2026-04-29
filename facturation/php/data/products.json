@@ -1,0 +1,74 @@
+[
+    {
+        "id": "p2",
+        "name": "Pain de Mie complet",
+        "price": 2.2,
+        "stock": 44,
+        "barcode": "5449000000996",
+        "category": "Alimentation",
+        "min_stock_alert": 10
+    },
+    {
+        "id": "p3",
+        "name": "Savon liquide 500ml",
+        "price": 3.5,
+        "stock": 60,
+        "barcode": "7613034947231",
+        "category": "Hygiène",
+        "min_stock_alert": 15
+    },
+    {
+        "id": "p4",
+        "name": "Paquet de Pâtes 500g",
+        "price": 1.1,
+        "stock": 200,
+        "barcode": "1234567890128",
+        "category": "Alimentation",
+        "min_stock_alert": 30
+    },
+    {
+        "id": "p5",
+        "name": "Lessive Liquide 3L",
+        "price": 12.9,
+        "stock": 15,
+        "barcode": "3123456789012",
+        "category": "Entretien",
+        "min_stock_alert": 5
+    },
+    {
+        "id": "p6",
+        "name": "Jus d'Orange 1L",
+        "price": 2.75,
+        "stock": 80,
+        "barcode": "3256789012345",
+        "category": "Boissons",
+        "min_stock_alert": 15
+    },
+    {
+        "name": "pepsi",
+        "price": 1500,
+        "stock": 13,
+        "barcode": "6009804011278",
+        "category": "boison",
+        "min_stock_alert": 5,
+        "id": "p69f1322f449eb5.00763310"
+    },
+    {
+        "name": "pepsie",
+        "price": 43,
+        "stock": 30,
+        "barcode": "42210603",
+        "category": "boison",
+        "min_stock_alert": 4,
+        "id": "p69f137f0b03697.82940754"
+    },
+    {
+        "name": "jus_zest",
+        "price": 100,
+        "stock": 10,
+        "barcode": "17231381",
+        "category": "Boissons",
+        "min_stock_alert": 5,
+        "id": "p69f270551ce468.48483063"
+    }
+]

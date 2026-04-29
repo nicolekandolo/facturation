@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "username": "admin",
+        "password": "$2y$12$XALd8p45ZAWIODBqvhE\/z.NFrRETXBDcyrg25jed5B0o7NRXKrreC",
+        "role": "super_admin",
+        "name": "Super Administrateur",
+        "is_active": true
+    },
+    {
+        "id": "2",
+        "username": "manager",
+        "password": "$2y$12$A2uwFKezA9Z0\/suJVnP6VeSiQEID1Wf76QB.\/4zB9oo2XOKDcBnjC",
+        "role": "manager",
+        "name": "Manager Magasin",
+        "is_active": true
+    },
+    {
+        "id": "3",
+        "username": "caissier",
+        "password": "$2y$12$96sPK4eGnYVCaoYuBpFtL.MSj3gIC1zb8p0bkJVnbACABluGOD\/rG",
+        "role": "caissier",
+        "name": "Caissier Principal",
+        "is_active": true
+    }
+]

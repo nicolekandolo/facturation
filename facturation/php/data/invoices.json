@@ -1,0 +1,44 @@
+[
+    {
+        "id": "inv69f24ff04bedd4.37428583",
+        "invoice_number": "FAC-20260001",
+        "date": "2026-04-29T18:37:36+00:00",
+        "cashier_id": "3",
+        "cashier_name": "Caissier Principal",
+        "items": [
+            {
+                "product_id": "p1",
+                "name": "Bouteille d'eau 1.5L",
+                "price": 500,
+                "quantity": 1,
+                "total": 500
+            }
+        ],
+        "subtotal": 500,
+        "tax": 100,
+        "total": 600,
+        "payment_method": "mobile",
+        "customer_name": null
+    },
+    {
+        "id": "inv69f27b74eae0c2.78033649",
+        "invoice_number": "FAC-20260002",
+        "date": "2026-04-29T21:43:16+00:00",
+        "cashier_id": "3",
+        "cashier_name": "Caissier Principal",
+        "items": [
+            {
+                "product_id": "p2",
+                "name": "Pain de Mie complet",
+                "price": 2.2,
+                "quantity": 1,
+                "total": 2.2
+            }
+        ],
+        "subtotal": 2.2,
+        "tax": 0.44,
+        "total": 2.64,
+        "payment_method": "cash",
+        "customer_name": "peggy"
+    }
+]
